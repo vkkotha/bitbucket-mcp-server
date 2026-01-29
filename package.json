@@ -18,7 +18,7 @@
     "dev": "tsc --watch",
     "start": "node build/index.js",
     "prepublishOnly": "npm run build",
-    "package": "npm run build && npm pack"
+    "package": "node scripts/package.cjs"
   },
   "keywords": [
     "mcp",
